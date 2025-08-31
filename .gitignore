@@ -1,0 +1,35 @@
+# Flutter build outputs
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/*.jks
+**/android/app/release/
+**/android/app/debug/
+**/android/app/profile/
+
+# iOS (if you ever add iOS later)
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# VS Code
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.log
+*.iml
